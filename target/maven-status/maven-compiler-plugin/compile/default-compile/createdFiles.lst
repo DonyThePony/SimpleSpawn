@@ -1,2 +1,7 @@
-de\donythepony\simplespawn\command\SetSpawnCommand.class
 de\donythepony\simplespawn\Main.class
+de\donythepony\simplespawn\command\SpawnCommand.class
+de\donythepony\simplespawn\command\SetSpawnCommand.class
+de\donythepony\simplespawn\SimpleSpawn.class
+de\donythepony\simplespawn\event\SetSpawnEvent.class
+de\donythepony\simplespawn\event\SpawnEvent.class
+de\donythepony\simplespawn\SpawnEventListener.class

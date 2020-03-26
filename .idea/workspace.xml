@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4231499d-a942-4cbe-9cc1-aad7d2557e39" name="Default Changelist" comment="" />
+    <list default="true" id="4231499d-a942-4cbe-9cc1-aad7d2557e39" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/donythepony/simplespawn/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/donythepony/simplespawn/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/donythepony/simplespawn/command/SetSpawnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/donythepony/simplespawn/command/SetSpawnCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/donythepony/simplespawn/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/donythepony/simplespawn/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/donythepony/simplespawn/command/SetSpawnCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/donythepony/simplespawn/command/SetSpawnCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/simplespawn-1.0-SNAPSHOT.jar" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +28,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1ZaYqF6Kgd3ghq6ThaNzyW8O8uG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,7 +43,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/de/donythepony/simplespawn" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.donythepony.simplespawn.event" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -44,33 +65,59 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1585079048951">
+    <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1585229137757">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1585079048951" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1585080228211">
+    <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/-1920.0.1920.1080@0.0.1920.1050" timestamp="1585229137757" />
+    <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1585086015573" />
+    <state x="542" y="454" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585086002684">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1585080228211" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1585080228210">
+    <state x="542" y="454" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1585086002684" />
+    <state x="740" y="282" key="FileChooserDialogImpl" timestamp="1585240699439">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1585080228210" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1585080228210">
+    <state x="740" y="282" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1080@0.0.1920.1050" timestamp="1585240699439" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1585239127147">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1585080228210" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1585080228210">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1080@0.0.1920.1050" timestamp="1585239127147" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1585087172583" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1585239127147">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1585080228210" />
-    <state x="776" y="305" key="chooseDestDirectoryDialog" timestamp="1585079032126">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1080@0.0.1920.1050" timestamp="1585239127147" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1585087172583" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1585239127146">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1080@0.0.1920.1050" timestamp="1585239127146" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1585087172583" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1585239127147">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1080@0.0.1920.1050" timestamp="1585239127147" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1585087172583" />
+    <state x="776" y="305" key="chooseDestDirectoryDialog" timestamp="1585229079998">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="776" y="305" key="chooseDestDirectoryDialog/0.0.1920.1050/-1920.0.1920.1080@0.0.1920.1050" timestamp="1585229079998" />
     <state x="776" y="305" key="chooseDestDirectoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1585079032126" />
-    <state x="623" y="227" key="search.everywhere.popup" timestamp="1585078981037">
+    <state x="668" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1585240661660">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1585078981037" />
+    <state x="668" y="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/-1920.0.1920.1080@0.0.1920.1050" timestamp="1585240661660" />
+    <state x="342" y="229" key="new project wizard" timestamp="1585237146827">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="342" y="229" key="new project wizard/0.0.1920.1050/-1920.0.1920.1080@0.0.1920.1050" timestamp="1585237146827" />
+    <state x="616" y="243" key="run.anything.popup" timestamp="1585229958380">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050/-1920.0.1920.1080@0.0.1920.1050" timestamp="1585229958380" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1585083378505">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1585083378505" />
   </component>
 </project>
