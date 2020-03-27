@@ -1,6 +1,7 @@
 C:\Users\dsaracino\IdeaProjects\simplespawn\src\main\java\de\donythepony\simplespawn\Main.java
 C:\Users\dsaracino\IdeaProjects\simplespawn\src\main\java\de\donythepony\simplespawn\command\SpawnCommand.java
 C:\Users\dsaracino\IdeaProjects\simplespawn\src\main\java\de\donythepony\simplespawn\command\SetSpawnCommand.java
+C:\Users\dsaracino\IdeaProjects\simplespawn\src\main\java\de\donythepony\simplespawn\event\SpawnEvent.java
 C:\Users\dsaracino\IdeaProjects\simplespawn\src\main\java\de\donythepony\simplespawn\SimpleSpawn.java
 C:\Users\dsaracino\IdeaProjects\simplespawn\src\main\java\de\donythepony\simplespawn\SpawnEventListener.java
 C:\Users\dsaracino\IdeaProjects\simplespawn\src\main\java\de\donythepony\simplespawn\event\SetSpawnEvent.java

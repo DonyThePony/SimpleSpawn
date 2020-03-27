@@ -4,6 +4,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Particle;
 import org.bukkit.World;
+import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.file.YamlConfiguration;
 
 import java.io.File;
@@ -17,7 +18,7 @@ public class SimpleSpawn {
     public Location spawnLocation;
     private Particle setSpawnParticle;
     private Particle spawnParticle;
-
+    private boolean spawnOnJoin;
 
     public static SimpleSpawn getManager() {
         return SimpleSpawn.manager;
@@ -33,13 +34,13 @@ public class SimpleSpawn {
         if (!plugin.getDataFolder().exists()) {
             plugin.getDataFolder().mkdir();
             File spawnData = new File(plugin.getDataFolder(), "simplespawn.yml");
-
+            YamlConfiguration yaml = new YamlConfiguration();
+            yaml.addDefault("settings.spawnOnJoin", false);
 
             if (!spawnData.exists()) {
                 World world = Bukkit.getWorlds().get(0);
                 Location location = world.getSpawnLocation();
 
-                YamlConfiguration yaml = new YamlConfiguration();
                 yaml.createSection("spawn");
                 yaml.set("spawn.world", world.getName());
                 yaml.set("spawn.x", location.getX());
@@ -49,6 +50,7 @@ public class SimpleSpawn {
                 yaml.set("spawn.pitch", location.getPitch());
                 yaml.set("particle.setspawn", Particle.FIREWORKS_SPARK.toString());
                 yaml.set("particle.spawn", Particle.CLOUD.toString());
+                yaml.set("settings.spawnOnJoin", false);
                 try {
                     spawnData.createNewFile();
                     yaml.save(spawnData);
@@ -89,6 +91,8 @@ public class SimpleSpawn {
             particle = Particle.FIREWORKS_SPARK;
         }
         this.spawnParticle = particle;
+
+        this.spawnOnJoin = yamlConfig.getBoolean("settings.spawnOnJoin");
     }
 
     public Particle getSetSpawnParticleFromFile() {
@@ -137,12 +141,17 @@ public class SimpleSpawn {
         yamlConfig.set("spawn.yaw", location.getYaw());
         yamlConfig.set("particle.setspawn", setSpawnParticle.toString());
         yamlConfig.set("particle.spawn", spawnParticle.toString());
-
+        yamlConfig.set("particle.spawn", spawnParticle.toString());
+        yamlConfig.set("settings.spawnOnJoin", spawnOnJoin);
         try {
             yamlConfig.save(file);
             this.spawnLocation = location;
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public boolean isSpawnOnJoin() {
+        return spawnOnJoin;
     }
 }
